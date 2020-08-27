@@ -1,0 +1,19 @@
+th{
+    background: #39064f;
+}
+.letra-blanca{
+    color: white;
+}
+.fondo-amarillo{
+    background: #f3ff00;
+}
+.menu-usuario{
+    margin-bottom: -40px;
+    margin-top: 6px;
+}
+
+.seguidor{
+    position: fixed;
+    width: 100%;
+    
+}

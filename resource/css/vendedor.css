@@ -1,0 +1,11 @@
+*{margin: 0; padding: 0;}
+
+.venta{
+    font-size: x-large;
+    text-align: center;
+    color: aliceblue;
+    margin-left: 250px;
+    width: 500px;
+    height: 500px;
+    background:rgb(4, 64, 112) ;
+}

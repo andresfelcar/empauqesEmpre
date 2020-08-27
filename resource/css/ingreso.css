@@ -1,0 +1,41 @@
+*{margin: 0; padding: 0;}
+.contenedor{
+    border: 2px solid blue;
+    margin-top: 30px;
+    margin-left: 35%;
+    width: 30%;
+    height: 400px;
+    background-color: teal;
+    position: absolute;
+}
+h3{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+}
+img{
+    margin-left: 10px;
+    margin-top: 20px;
+    width: 300px;
+    height: 100px;
+}
+form{
+    
+    margin-left: 60px;
+    margin-top: 60px;
+    
+}
+.submit a{
+    text-decoration: none;
+}
+input{
+    margin: 0px 0px 20px 0px;
+}
+button{
+    display: block;
+    margin-left: 60px;
+}
+button:hover{
+    color: white;
+    background-color: tomato;
+}

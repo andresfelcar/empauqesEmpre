@@ -1,0 +1,75 @@
+*{margin: 0; padding: 0;box-sizing: border-box;}
+#table{
+    width: 100%;
+}
+th {
+    background-color:rgb(4, 64, 112);
+    color: white;
+    text-align: center;
+    padding:8px;
+}
+td{
+    padding: 5px 3px;
+}
+td .overflow{
+    width: 80px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+    .tabla{
+        position: relative;
+        width: 68%;
+        text-align: center;
+        float: left;
+        top:80px;
+        left: 25px;
+    }
+    .regemple, .regemple2{
+        background-color: rgb(4, 64, 112);
+        width: 300px;
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+        border-radius:10px;
+        position: absolute;
+        padding:0 0 10px;
+        left:71%;
+    }
+    .regemple{
+        top: 70px;
+    }
+    .regemple2{
+        top: 425px;
+    }
+    .form_reg{
+        padding: 0 5px;
+       margin: 0 auto;
+        width: 90%;
+        height: auto;
+        text-align: center;
+    }
+    .form_reg h3{
+        color:white;
+    }
+    .form_reg p{
+        width: 100%;
+        text-align: right;
+        color:white;
+    }
+    .form_reg input{
+        height: 25px;
+        border-radius: 5px;
+        margin-bottom: 5px;
+        color:black;
+    }
+    .form_reg button{
+        border: none;
+        border-radius: 5px;
+        width: 150px;
+        padding: 5px 3px;
+        cursor: pointer;
+    }
+    .form_reg button:hover{
+        box-shadow: 1px 1px 4px 0 white;
+    }

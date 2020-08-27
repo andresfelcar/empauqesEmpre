@@ -1,0 +1,102 @@
+*{margin: 0;padding: 0;box-sizing: border-box;}
+.header{
+    width: 100%;
+    height: 60px;
+    background-color:rgb(4, 64, 112);
+}
+.header #a{
+    width: 60%;
+    height: 60px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    float: right;
+}
+.header a{
+    color: white;
+    text-decoration: none;
+    padding: 0 10px;
+}
+
+.section{
+    width: 100%;
+    height: auto;
+    margin-top:50px;
+}
+.divicion1{
+    border: 4px solid black;
+    position: absolute;
+    width: 320px;
+    height: 350px;
+    background-color: rgb(4, 64, 112);
+    display: none;
+}
+.divicion4 h2{
+    color: blanchedalmond;
+    text-align: center;
+}
+h3{
+    margin-top: 20px;
+    color: white;
+    text-align: center;
+}
+form{
+    margin-top: 30px;
+    margin-left: 70px;
+}
+.products{
+    margin: 0px 0px 10px 0px;
+}
+button{
+    margin-left: 50px;
+    margin-top: 20px;
+    display: block;
+}
+.divicion2{
+    border: 4px solid black;
+    position: absolute;
+    width: 320px;
+    height: 350px;
+    background-color:rgb(4, 64, 112);
+    display: none;
+}
+.divicion3{
+    border: 4px solid black;
+    position: absolute;
+    width: 320px;
+    height: 350px;
+    background-color: rgb(4, 64, 112);
+    display: none;
+}
+.divicion4{
+    width: 1050px;
+    height: auto;
+    background: rgb(4, 64, 112);
+    position: absolute;
+}
+.divicion4 td{
+    border: 4px solid black;
+    color: blanchedalmond;
+    font-size: larger;
+}
+.divicion4 table{
+    border: 3px solid black;
+    width: 100%;
+}
+.section2{
+    width: 30%;
+    height: 400px;
+    float: right;
+    padding: 0 70px;
+}
+#tablas{
+    height: auto;
+    width: 70%;
+    float: left;
+}
+#producto{
+    display: none;
+}
+#vendedor{
+    display: none;
+}

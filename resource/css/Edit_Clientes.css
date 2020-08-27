@@ -1,0 +1,45 @@
+*{margin: 0px; padding: 0px;box-sizing: border-box;}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.form{
+    background-color: rgb(4, 64, 112);
+    width: 300px;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius:10px;
+}
+.form_reg{
+    padding: 8px 5px;
+   margin: 0 auto;
+    width: 90%;
+    height: auto;
+    text-align: center;
+}
+.form_reg p{
+    width: 100%;
+    text-align: right;
+    color:white;
+}
+.form_reg input{
+    height: 25px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.form_reg button{
+    border: none;
+    border-radius: 5px;
+    width: 150px;
+    padding: 5px 3px;
+    cursor: pointer;
+    margin: 8px 0 0;
+}
+.form_reg button:hover{
+    box-shadow: 1px 1px 4px 0 white;
+}
